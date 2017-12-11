@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript day 01</title>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+
+    <p>Some Content. one</p>
+    <p>Some Content. two</p>
+    <p>Some Content. three</p>
+    <p>Some Content. four</p>
+
+
+
+
+    <script>
+        var paragraphElements = document.getElementsByTagName('p');
+
+//        for (var key in paragraphElements) {
+//            document.write(paragraphElements[key].innerHTML+'<br/>')
+//        }
+alert(paragraphElements.length)
+
+        for (x=0; x<=paragraphElements.length; x++){
+        document.write(paragraphElements[x].innerHTML+'<br/>');
+        }
+
+
+
+
+
+
+//        *Assignment Operator (=, +=, -=, *=, /=, %=)
+
+//        var x=10;
+//        var y=20;
+//
+//        document.write(x+=y);document.write('<br/>'); //
+//        document.write(x-=y);document.write('<br/>');
+//        document.write(x*=y);document.write('<br/>');
+//        document.write(x/=y);document.write('<br/>');
+//        document.write(x%=y);document.write('<br/>');
+
+
+            /* Conditional Operator (>, >=, <, <=, ==, !=, ===, !==) */
+
+//
+//
+//                    var x=10;
+//                    var y=20;
+//                document.write(x>y);document.write('<br/>');
+//                document.write(x>=y);document.write('<br/>');
+//                document.write(x<y);document.write('<br/>');
+//                document.write(x<=y);document.write('<br/>');
+//                document.write(x==y);document.write('<br/>');
+//                document.write(x!=y);document.write('<br/>');
+//                document.write(x===y);document.write('<br/>');
+//                document.write(x!==y);document.write('<br/>');
+
+
+
+
+
+                /*logical operator */
+
+//        Logical Operator (&&, ||, !)
+
+
+//        var x=10;
+//        var y=20;
+//        var z=30;
+//
+//        document.write ((x>y) && (y>z));document.write('<br/>');
+//        document.write ((x<y) && (y<z));document.write('<br/>');
+//        document.write ((x<y) && (y>z));document.write('<br/>');
+//        document.write ((x>y) && (y<z));document.write('<br/>');
+//document.write('<br/>');document.write('<br/>');
+//
+//
+//
+//        document.write ((x>y) || (y>z));document.write('<br/>');
+//        document.write ((x<y) || (y<z));document.write('<br/>');
+//        document.write ((x<y) || (y>z));document.write('<br/>');
+//        document.write ((x>y) || (y<z));document.write('<br/>');
+//document.write('<br/>');document.write('<br/>');
+
+
+//        var x=true;
+//        document.write(!x);
+
+
+        /*--------------------------- Statement --------------------------------*/
+//        shadharonto tin dhoroner statement likhte hoi
+//
+//        *single line Statement
+//        *Conditional Statement     lekher jonno syntext holo 4 ta (if, if else, if else if, switch,)
+//        *Repeted Statement          lekher jonno syntext holo 4 ta (for, while, do while, for in)
+
+
+
+
+//                var x=100;
+//                if(x<30){
+//
+//                    document.write('Hello world')
+//                } else {
+//                    document.write('Hello Bangladesh')
+//                }
+
+
+////
+////        var x=10;
+////        var y=20;
+////        var z=30;
+////
+////        if (x>y){
+////            document.write('Hello World');
+////        } else if (y>z){
+////            document.write('hello Bangladesh');
+////        } else if (z>x){
+////            document.write('Hello Dhaka');
+////        } else {
+////            document.write('Hello BITM');
+//        }
+
+
+        /*----------Switch-----------*/
+
+//        var x=20;
+//        switch (x) {
+//            case 10:
+//                document.write('Hello World');
+//                break;
+//            case 20:
+//                document.write('hello Bangladesh');
+//                break;
+//            case 30:
+//                document.write('Hello Dhaka');
+//                break;
+//            default:
+//                document.write('Hello BITM');
+//        }
+
+
+
+        /*-------------------Repeted Statement (for, while, do while, for in)---------------*/
+//                for (startPoint; endPoint; difference){}
+//            for (x=35; x<=42; x++) {
+//                document.write(x+"<br/>");
+//            }
+
+
+        /*------------------ While loop--------------*/
+//
+//        var x=10;
+//        while (x<=15){
+//            document.write(x+'<br/>');
+//            x++;
+//        }
+//
+
+        /*------------------ Do While --------------*/
+
+//        var x=10;
+//        do{
+//            document.write(x+'<br/>');
+//            x++;
+//
+//        } while (x<15);
+
+
+
+
+        /*----------------- for in --------------*/
+
+//
+//        for in
+
+
+//        Array holo akta special variable jekhane amra multiple data ba variable rakhte pari,
+
+
+//        var y = new Array(); old version
+//        var z = Array(); old version
+//          var a=[10, 20, 30, 40, 'Robin Hood Panday', 'Dhaka', 'Bangladesh'];
+//            a[0]=10;
+//            a[1]=20;
+//            a[2]=30;
+//            a[3]=40;
+//            a[4]=50;
+//            a[5]=60;
+//            a[6]=70;
+//            a['name'] = "Robin hood panday";
+//            a['city'] = "Dhaka";
+//            a['country'] = "Bangladesh"
+//
+//            document.write(a[5])
+//
+//
+//        for (var key in a) {
+//            document.write(a[key]+'<br/>')
+//        }
+//        alert(a.length)
+////        akhane . (dot) ta holo javaScript ar object sign
+
+    </script>
+
+
+
+    </body>
+</html>
